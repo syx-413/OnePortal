@@ -43,7 +43,7 @@ const CodePreview: FC<{ file: any }> = ({ file }) => {
       <PreviewContainer>
         <SyntaxHighlighter
           language={getLanguageByFileName(file.name)}
-          style={theme === 'dark' ? tomorrowNightEighties : tomorrow}
+          style={theme === 'light' ? tomorrowNightEighties : tomorrow}
         >
           {content}
         </SyntaxHighlighter>
