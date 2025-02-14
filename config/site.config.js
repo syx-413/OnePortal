@@ -18,8 +18,8 @@ module.exports = {
   title: process.env.NEXT_PUBLIC_TITLE || "413's OneDrive",
 
   // The folder that you are to share publicly with OnePortal. Use '/' if you want to share your root folder.
-  baseDirectory: process.env.BASE_DIRECTORY || '/BackupE5/Public',
-
+  // baseDirectory: process.env.BASE_DIRECTORY || '/BackupE5/Public',
+  baseDirectory: process.env.BASE_DIRECTORY || '/',
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
   maxItems: process.env.MAX_ITEMS || 100,
