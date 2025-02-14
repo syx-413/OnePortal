@@ -14,7 +14,7 @@ module.exports = {
   //clientId: '657c87ed-1c77-47b3-896c-373efbca0c9a',
   //obfuscatedClientSecret: 'U2FsdGVkX19negoCvXWkrHAGrjgzHvWsNH45CriB58zlzE75kJEhg4E6a7TL/fl/bwUeSQZCJn2Q9+j++A0PuQ==',
   clientId: process.env.NEXT_PUBLIC_CLIENT_ID || '3e96de12-6f76-4c86-8914-1155c398ae64',
-  obfuscatedClientSecret: process.env.NEXT_PUBLIC_CLIENT_SECRET || 'U2FsdGVkX19lFQNOuSCIxirptXyYbw3jNgZaVFasHyJKh6ZH2onWmhwWmxbxh7/ztbVzKZ1O1bYOAcgOMHFsng==',
+  obfuscatedClientSecret: process.env.NEXT_PUBLIC_CLIENT_SECRET || 'U2FsdGVkX197NbWCqJJOf5yRFm8PGsFQY5Fg9ZNiygsuUDA0nIh3k75PNkZ7C++hP4X/msZIiHArjMBYJNqwng==',
 
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
